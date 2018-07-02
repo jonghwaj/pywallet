@@ -16,6 +16,7 @@ VERACK = bytes.fromhex('f9beb4d976657261636b000000000000000000005df6e0e2')
 
 class NodeConnection:
 
+    # git test
     def __init__(self, host, port):
         self.host = host
         self.port = port
